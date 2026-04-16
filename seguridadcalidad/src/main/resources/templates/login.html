@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
+    <head>
+        <title>Login con JWT</title>
+        <link rel="stylesheet" type="text/css" href="/login.css">
+        
+        <script src="/login.js" defer></script> 
+    </head>
+    <body>
+
+        <div id="errorMessage" class="error"></div>
+        
+        <form id="loginForm" method="POST">
+            <div><label> User Name : <input type="text" id="username" name="username"/> </label></div>
+            <div><label> Password: <input type="password" id="password" name="password"/> </label></div>
+            <div><input type="submit" value="Sign In"/></div>
+        </form>
+    </body>
+</html>
