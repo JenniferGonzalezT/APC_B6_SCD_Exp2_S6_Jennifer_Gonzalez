@@ -1,11 +1,6 @@
 services:
   mysql-cdy2203-1:
-    image: mysql/mysql-server:latest
-    environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: mydatabase
-      MYSQL_USER: myuser
-      MYSQL_PASSWORD: password
+    build: ./BD  # Ruta archivo Dockerfile
     ports:
       - "3306:3306"
 
