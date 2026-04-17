@@ -13,4 +13,4 @@ COPY --from=build /app/target/*.jar app.jar
 # El backend expone el puerto 8081
 EXPOSE 8081
 
-ENTRYPOINT ["java","-jar","/app.jar"]
+ENTRYPOINT ["java","-jar","app.jar"]
