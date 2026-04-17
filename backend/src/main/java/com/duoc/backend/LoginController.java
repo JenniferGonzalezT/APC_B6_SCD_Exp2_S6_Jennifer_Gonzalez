@@ -1,5 +1,5 @@
 package com.duoc.backend;
-import com.duoc.backend.JWTAuthenticationConfig;
+
 import com.duoc.backend.user.MyUserDetailsService;
 import com.duoc.backend.user.User;
 
